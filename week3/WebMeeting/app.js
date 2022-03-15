@@ -8,7 +8,7 @@ var list = [
     {id: 2, item: "Reeses", price: 1.50}
 ]
 
-//  CRUD
+//  CRUD 
 
 // R - Read
 // (GET) ENDPOINT: http://localhost:3000/list
