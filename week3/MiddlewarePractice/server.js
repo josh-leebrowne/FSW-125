@@ -1,7 +1,6 @@
 //server.js
 const express = require('express')
 const app = express()
-const { v4: uuidv4 } = require('uuid')
 
 const bookRouter = require('./routes/bookRouter')
 const showsRouter = require('./routes/showsRouter')
