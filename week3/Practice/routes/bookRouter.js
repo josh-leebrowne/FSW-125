@@ -15,9 +15,22 @@ let books =[
 
 //Router
 bookRouter
+    .get('/', (req, res, next) => {
+        //res.send(books)
+        next()
+    })
+
+    .get('/', (req, res, next) => {
+        next()
+    })
+
     .get('/', (req, res) => {
         res.send(books)
     })
+
+
+
+
     //: is wildcard
     .get('/:bookId', (req, res) => {
         const bookId = req.params.bookId
