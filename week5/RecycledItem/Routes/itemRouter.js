@@ -71,7 +71,7 @@ itemRouter
         const itemIndex = items.findIndex(item => item._id === itemId)
         Object.assign(items[itemIndex], req.body)
 
-        res.send('Resource Updated')
+        res.send(items[itemIndex])
     })
 
     .delete('/:itemId', (req, res) => {

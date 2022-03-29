@@ -24,7 +24,7 @@ function App() {
 
   const editItem = (updates, itemId) => {
     axios.put(`/itemsIntake/${itemId}`, updates)
-    .then(res => {
+    .then(res => {  
       setItems(prevItem => prevItem.map(item => item._id !== itemId ? item : res.data))
     })
     .catch(err => console.log(err))

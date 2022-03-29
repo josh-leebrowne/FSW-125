@@ -20,7 +20,7 @@ const Item = ({editItem, deleteItem, name, descr, unitPrice, _id}) => {
                     name={name}
                     descr={descr}
                     unitPrice={unitPrice}
-                    id={_id}
+                    _id={_id}
                     btnText='Submit'
                     submit={editItem}/>
                     <button className="submit-btn" onClick={() => setEditToggle(prevToggle => !prevToggle)}>Close</button>
