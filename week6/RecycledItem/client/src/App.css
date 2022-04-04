@@ -1,0 +1,35 @@
+html {
+  background-color: gray;
+  text-align: center;
+}
+
+.delete-btn{
+  background-color: rgb(173, 50, 2);
+  color: white;
+}
+
+.edit-btn{
+  background-color: rgb(114, 114, 212);
+  color: white;
+}
+
+.submit-btn{
+  background-color: green;
+  color: white;
+}
+
+.add-item {
+  background-color: rgb(211, 116, 39);
+  color: white;
+}
+
+
+.item {
+  background-color: rgb(133, 169, 224);
+  text-align: center;
+  margin: 100px 500px 100px 500px;
+}
+
+.item > h1 {
+  background-color: rgb(27, 165, 22);
+}
