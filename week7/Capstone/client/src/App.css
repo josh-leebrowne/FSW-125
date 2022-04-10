@@ -1,0 +1,60 @@
+html {
+    background: radial-gradient(rgb(71, 71, 71), green);
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button {
+    border-radius: 5px;
+}
+.delete-btn{
+    background-color: rgb(173, 50, 2);
+    color: white;
+}
+
+.edit-btn{
+    background-color: rgb(114, 114, 212);
+    color: white;
+}
+
+.submit-btn{
+    background-color: green;
+    color: white;
+}
+.add-btn {
+    background-color: aquamarine;
+}
+.search-btn{
+    background-color: aquamarine;
+}
+.search{
+    background-color:rgb(47, 141, 141);
+    border-radius: 5px;
+    margin: 0px 5px 0px 5px
+}
+.close-btn{
+    background-color: orange;
+    color: black;
+}
+
+.add-item {
+    background-color: rgb(211, 116, 39);
+    color: white;
+}
+
+.input {
+    background-color: rgb(47, 141, 141);
+    margin: 0px 5px 0px 5px;
+    border-radius: 5px;
+}
+
+.movie {
+    background: linear-gradient(rgb(6, 50, 70), rgb(107, 13, 136));
+    text-align: center;
+    margin: 100px 500px 100px 500px;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.item > h1 {
+    background-color: rgb(27, 165, 22);
+}
